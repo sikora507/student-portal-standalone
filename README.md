@@ -9,7 +9,7 @@ Plan is:
 
 This proof of concept shows that this is possible.
 
-It takes my previous proof of concept of portal written in knockout using components and puts it into VUE website **WITHOUT ANY MODIFICATIONS**. (maybe some paths needed to be adjusted)
+It takes my previous proof of concept of portal written in knockout using components and puts it into VUE website **WITHOUT ANY MODIFICATIONS**. (only some paths needed to be adjusted)
 
 Knockout code is put into /static/knockout-components folder as it was in previous proof of concept project without modifying the components.
 
