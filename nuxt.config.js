@@ -17,7 +17,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      { src: '/js/external/require.js', type: 'text/javascript', 'data-main': '/js/main.js' }
+      { src: 'js/external/require.js', type: 'text/javascript', 'data-main': 'js/main.js' }
     ]
   },
 
@@ -64,5 +64,8 @@ export default {
     */
     extend(config, ctx) {
     }
+  },
+  router:{
+    base: '/portal-standalone/'
   }
 }

@@ -23,6 +23,9 @@
         <nuxt-link tag="li" active-class="active" class="nav-item" to="/my-forms">
           <a class="nav-link" href="#">My forms</a>
         </nuxt-link>
+        <nuxt-link tag="li" active-class="active" class="nav-item" to="/auth">
+          <a class="nav-link" href="#">Auth</a>
+        </nuxt-link>
       </ul>
     </div>
   </nav>

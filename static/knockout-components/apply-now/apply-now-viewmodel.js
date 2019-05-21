@@ -1,9 +1,9 @@
 define([
   "knockout",
-  "/knockout-components/apply-now/basic-info/basic-info-viewmodel.js",
-  "/knockout-components/apply-now/academic/academic-viewmodel.js",
-  "/knockout-components/apply-now/highschool-info/highschool-info-viewmodel.js",
-  "message-bus"
+  "components/apply-now/basic-info/basic-info-viewmodel",
+  "components/apply-now/academic/academic-viewmodel",
+  "components/apply-now/highschool-info/highschool-info-viewmodel",
+  "js/message-bus"
 ], function (ko, basicInfoVm, academicVm, highschoolInfoVm, messageBus) {
   function viewModel() {
     var self = this;

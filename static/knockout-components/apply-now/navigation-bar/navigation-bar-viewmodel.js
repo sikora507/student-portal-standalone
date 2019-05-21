@@ -1,4 +1,4 @@
-define(["knockout", 'message-bus'], function (ko, messageBus) {
+define(["knockout", 'js/message-bus'], function (ko, messageBus) {
     return function viewModel(params) {
         var self = this;
         self.prevActive = ko.computed(function () {

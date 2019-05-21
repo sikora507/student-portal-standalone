@@ -1,4 +1,4 @@
-define(["knockout", '/knockout-components/apply-now/academic/academic-viewmodel.js'], function(ko, academicVm) {
+define(["knockout", 'components/apply-now/academic/academic-viewmodel'], function(ko, academicVm) {
   function viewModel() {
     var self = this;
     self.testData = ko.observable("test data");

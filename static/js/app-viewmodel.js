@@ -1,6 +1,6 @@
 define([
     "knockout",
-    "message-bus"
+    "js/message-bus"
   ], function(ko, messageBus) {
     return function appViewModel() {
       var self = this;
